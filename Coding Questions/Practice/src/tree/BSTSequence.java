@@ -20,7 +20,7 @@ public class BSTSequence {
 		for(LinkedList<Integer>left: leftSet){
 			for(LinkedList<Integer> right: rightSet){
 				ArrayList<LinkedList<Integer>> weaved = new  ArrayList<LinkedList<Integer>>();
-				weaveList(left,right,weaved,prefix);
+				//weaveList(left,right,weaved,prefix);
 				result.addAll(weaved);
 			}
 		}
